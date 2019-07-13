@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('images/body-bg.gif');
+}
+
+.links {
+    color: #f3b12b;
+    font-size: 12px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#navigation {
+    width: 100%;
+    height: 130px;
+    /* background: red; */
+
+}
+
+.logo {
+    margin-top: 30px;
+    float: left;
+}
+
+.registration {
+    width: 600px;
+    height: 50px;
+    /* background: green; */
+    float: right;
+    margin-top: 20px;
+    margin-right: -8px; 
+}
+
+ul.menu {
+    font-weight: bold;
+    margin-top: -50px;
+    margin-right: 50px;
+    width: 600px;
+    /* background: blue; */
+    height: auto;
+    float: right;
+    list-style: none;
+}
+
+ul.menu li {
+    margin-right: 20px;
+    float: left;
+}
+
+ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#searchbar {
+    width: 100%;
+    height: 50px;
+    /* background: gold; */
+    border-bottom: 1px dashed #666;
+    border-top: 1px dashed #666;
+}
+
+#searchbar h2 {
+    margin-top: 18px;
+    float: left;
+}
+
+#searchbar h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#searchbar h2 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.text-bold {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+     
+}
+
+.text-yello {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f3b12b;
+
+}
+
+.from {
+    margin-top: 16px;
+    float: right;
+}
+
+.from input[type="text"] {
+    width: 240px;
+    border: 1px solid #666;
+    background: #000;
+    outline: none;
+}
+
+.from input[type="submit"] {
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+#main-movie {
+    width: 100%;
+    height: auto;
+    /* background: red */
+}
+
+#main-movie .box {
+    clear: both;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px dashed #666;
+
+}
+
+#main-movie .movie-poster {
+    margin-top: 20px;
+    height: 280px;
+    margin-right: 10px;
+    float: left;
+}
+
+#main-movie .movie-poster img {
+    width: 150px;
+    height: auto;
+}
+
+#main-movie .movie-poster .rating {
+    font-size: 10px;
+    width: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+
+#main-movie .movie-poster .stars {
+    position: relative;
+    left: 45px;
+    bottom: 10px;
+    float: left;
+    background: url('images/stars.gif') no-repeat 0 0;
+    width: 60px;
+    height: 11px;
+    
+}
+
+#main-movie .movie-poster .stars-in {
+    float: left;
+    background: url('images/stars.gif') no-repeat 0 bottom;
+    width: 48px;
+    height: 11px;
+    
+}
+
+#main-movie .movie-poster .comments {
+    position: relative; 
+    bottom: 8px;
+    width:  9px;
+    height: 10px;
+    background: url('images/comments.gif');
+    float: right;
+    margin-right: 10px;
+    text-indent: 10px;
+    font-size: 10px
+
+}
+
+#main-movie .movie-poster button[type="button"] {
+    clear: both;
+    display: block;
+    
+}
+
+#news {
+    width: 440px;
+    height: auto;
+    float: left;
+}
+
+#section-nc {
+    width: 100%;
+    height: 350px;
+    border-top: 1px dashed #666;
+    border-bottom: 1px dashed #666;
+}
+
+#news .news-section {
+    margin-top: 20px;
+}
+
+#news .date {
+    font-size: 10px;
+    color: #fff;
+}
+
+#news h1 {
+    font-size: 16px;
+    color: #f3b12b;
+}
+
+#news p {
+    font-size: 14px;
+    color: #fff;
+}
+
+#news a {
+    font-size: 12px;
+    color: #f3b12b
+}
+
+#commingsoon {
+    margin-top: 20px;
+    width: 440px;
+    height: auto;
+    float: left;
+}
+
+#commingsoon .comming-section {
+
+}
+
+#commingsoon .comming-section img {
+    margin-top: 10px;
+    float: left;
+    width: 65px;
+    clear: left;
+}
+
+#commingsoon .comming-section h1 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #f3b12b;
+}
+
+#commingsoon .comming-section p {
+    color: #fff;
+    font-size: 12px;
+}
+
+#commingsoon .comming-section a {
+    font-size: 12px;
+    color: #f3b12b
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer ul.social {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    list-style: none;
+
+}
+
+footer ul.social li {
+    margin-left: 17px;
+    float: left;
+}
+
+footer ul.social li img {
+    width: 30px;
+    height: auto;
+
+}
+
+footer ul.social .copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.allright, .credits {
+    font-size: 12px;
+    clear: #fff;
+}
+
+.allright a, .credits a {
+    color: gray;
+    text-decoration: none;
+}
+
+.allright {
+    float: left;
+}
+
+.credits {
+    float: right;
+}
+
+#news-page {
+    font-size: 10px;
+    color: #fff;
+}
+
+#news-page p {
+    color: #fff;
+    font-size: 12px;
+
+}
+
+#news-page a {
+    color: #f3b12b;
+    font-size: 12px;
+
+}
+
+#news-page .new-section {
+    margin-top: 10px;
+}
+
+
+/* ******************************** inteaters ****************************/
+
+#inteaters-section .inteaters-box {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #666;
+
+}
+
+#inteaters-section .inteaters-box ul {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    list-style: none;
+
+}
+
+
+/* ******************************** commingsoon ****************************/
+#slider-section {
+    text-align: center;
+}
+
+#slider-section p {
+    color: #f1f1f1;
+    font-size: 14px;
+
+}
+#coming-movies {
+    margin-top: 50px;
+}
+
+#coming-movies h1{
+    text-align: center;
+    color: #f3b12b;
+    font-size: 12px;
+}
+
+#coming-movies img {
+    margin: 10px;
+    width: 70px;
+    height: auto;
+    float: left;
+}
+
+#coming-movies p {
+    color: #f1f1f1;
+    font-size: 14px
+}
+
+#coming-movies .coming-movie-box {
+    margin-top: 30px;
+}
+
+
+
+
+/* ******************************** booktickent ****************************/
+
+
+#booktickent-section {
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px dashed #666;
+    padding-bottom: 20px;
+}
+
+#booktickent-section h1 {
+    color: #fff;
+    border-bottom: 1px dashed #666;
+    padding-bottom: 20px;
+}
+
+#booktickent-section label {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#booktickent-section input {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#booktickent-section .booknow {
+    padding: 20px 50px;
+    background: #f1f1f1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease;
+
+}
+
+#booktickent-section .booknow:hover {
+    background: #666;
+}
+
+
+
+#booktickent-section input {
+    margin-top: 10px;
+    padding: 10px
+}
+
+
+
+
+/* ******************************** contact ****************************/
+
+#contactus-section {
+    margin: 10px 0;
+}
+
+#contactus-section h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+#contactus-section p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #f3b12b;
+}
+
+
+
+/* ******************************** login ****************************/
+
+
+#login-section {
+    text-align: center;
+    color: #fff;
+}
+
+#login-section legend {
+    font-size: 24px;
+
+}
+
+#login-section fieldset {
+    padding: 20px;
+}
+
+#login-section input[type="text"], input[type="password"] {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#login-section input[type="submit"] {
+    margin-top: 20px;
+    padding: 15px 80px;
+}
+
+
+
+/* ******************************** registration ****************************/
+
+#registration-sevtion {
+    text-align: center;
+    color: #fff;
+
+}
+
+#registration-sevtion fieldset {
+    padding: 20px;
+}
+
+#registration-sevtion input {
+    padding: 10px 30px;
+    margin: 10px; 
+
+}
+
+#registration-sevtion input[type="submit"] {
+    margin-top: 20px;
+    padding: 20px 80px;
+
+}
